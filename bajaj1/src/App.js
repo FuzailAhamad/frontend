@@ -13,7 +13,7 @@ const App = () => {
     setJsonData(data);
     try {
       const response = await fetch(
-        "bajaj-production-a0ca.up.railway.app/api/bfhl",
+        "backend-production-ad12.up.railway.app/api/bfhl",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
